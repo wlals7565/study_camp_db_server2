@@ -1,6 +1,6 @@
 @domain = http://localhost:4000
-# @AccessToken = {{loginToken.response.body.$.access_token}}
-@AccessToken = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhY2h5dWNoZXBlQGdtYWlsLmNvbSIsInN1YiI6OSwiaWF0IjoxNzA1MzU4NzM1LCJleHAiOjE3MDUzNjA1MzV9.NnvBzh01nJsPedoSi2vHAxBRgWbKBdAyLDMwhGm-r-s
+@AccessToken = {{loginToken.response.body.$.access_token}}
+# @AccessToken = "구글 소셜 로그인 테스트 시 이쪽에 토큰 값 입력한 뒤 2번째 줄 주석처리"
 
 
 ### 
@@ -52,7 +52,7 @@ Content-Type: application/json
 {
   "password": "123qweQWE!",
   "nick_name": "일반좁밥",
-  "skin": 1,
+  "skin": "마마무",
   "hair": 2,
   "face": 3,
   "clothes": 4,
