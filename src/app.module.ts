@@ -19,13 +19,14 @@ import { SpaceClass } from './spaces/entities/space-class.entity';
 import { SpaceMember } from './space-members/entities/space-member.entity';
 import { SpaceMemberDau } from './space-members/entities/space-member-dau.entity';
 import { Group } from './group/entities/group.entity';
-import { GroupMember } from './group/entities/group-members.entity';
+import { GroupMember } from './group-members/entities/group-members.entity';
 import { Lecture } from './lectures/entities/lecture.entity';
 import { LectureItem } from './lectures/entities/lecture-items.entity';
 import { LectureProgress } from './lectures/entities/lecture-progress.entity';
 import { Alarm } from './alarms/entities/alarm.entity';
 import { Mail } from './mails/entities/mail.entity';
 import { SpaceMemberDauModule } from './space-member-dau/space-member-dau.module';
+import { GroupMembersModule } from './group-members/group-members.module';
 
 const typeOrmModuleOptions = {
   useFactory: async (
@@ -82,6 +83,7 @@ const typeOrmModuleOptions = {
     MailsModule,
     AlarmsModule,
     SpaceMemberDauModule,
+    GroupMembersModule,
   ],
   controllers: [AppController],
   providers: [AppService],
