@@ -30,6 +30,7 @@ import { LectureProgress } from './lectures/entities/lecture-progress.entity';
 import { Alarm } from './alarms/entities/alarm.entity';
 import { Mail } from './mails/entities/mail.entity';
 import { AllExceptionsFilter } from './auth/error-logging/error-logging.service';
+import { SpaceMemberDauModule } from './space-member-dau/space-member-dau.module';
 
 const typeOrmModuleOptions = {
   useFactory: async (
@@ -88,6 +89,7 @@ const typeOrmModuleOptions = {
     AlarmsModule,
     RavenModule,
     ErrorLoggingModule,
+    SpaceMemberDauModule,
   ],
   controllers: [AppController],
   providers: [
