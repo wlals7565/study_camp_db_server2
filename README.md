@@ -434,3 +434,15 @@ study_camp
     회원가입 이메일 인증 구현
   </summary>
 </details>
+<details>
+  <ul>
+    <li>
+    학습 공간에서 주기적으로 갱신되는 코드를 통해 입장 가능합니다.
+    </li>
+      <image src="./src/public/코드입장.png"></image>
+  </ul>
+  <summary>
+    코드 입장 구현
+  </summary>
+</details>
+
