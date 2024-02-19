@@ -226,22 +226,6 @@ study_camp
 </thead>
 <tbody>
 <tr>
-<td align="left">템플릿</td>
-<td align="left">
-  <ul>
-    <li>
-      템플릿 내용
-    </li>
-    <li>
-      템플릿 내용
-    </li>
-    <li>
-      템플릿 내용
-    </li>
-  </ul>
-  </td>
-</tr>
-<tr>
 <td align="left">Phaser</td>
 <td align="left">
   <ul>
@@ -431,12 +415,34 @@ study_camp
 <details>
   <ul>
     <li>
-    사진필요!<br>
     학습 공간에 입장시 자동으로 출석체크가 되며 퇴장할때 자동으로 공부 누적시간을 계산해 줍니다.
     </li>
-      <image src="./src/public/출석관리.png"></image>
+      <image src="./src/public/출석보기.png"></image>
   </ul>
   <summary>
     출석 구현
   </summary>
 </details>
+<details>
+  <ul>
+    <li>
+    회원가입시 이메일을 통해 유효한 숫자 6자리를 입력해야 정상적으로 회원 가입이 되게 만들었습니다.
+    </li>
+      <image src="./src/public/이메일인증.png"></image>
+  </ul>
+  <summary>
+    회원가입 이메일 인증 구현
+  </summary>
+</details>
+<details>
+  <ul>
+    <li>
+    학습 공간에서 주기적으로 갱신되는 코드를 통해 입장 가능합니다.
+    </li>
+      <image src="./src/public/코드입장.png"></image>
+  </ul>
+  <summary>
+    코드 입장 구현
+  </summary>
+</details>
+
