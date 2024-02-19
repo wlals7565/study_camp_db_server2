@@ -401,6 +401,42 @@ study_camp
       <image src="./src/public/토스 결제창.png"></image>
   </ul>
   <summary>
-    토스 페이먼츠 결제 기능 구현
+    토스 페이먼츠 결제 구현
+  </summary>
+</details>
+<details>
+  <ul>
+    <li>
+    캐릭터를 꾸밀 수 있도록 꾸미기 기능을 넣었습니다.<br />
+    헤어, 옷, 피부, 얼굴을 꾸밀 수 있습니다.
+    </li>
+      <image src="./src/public/꾸미기.png"></image>
+  </ul>
+  <summary>
+    아바타 꾸미기 구현
+  </summary>
+</details>
+<details>
+  <ul>
+    <li>
+    학습 공간 관리자를 위한 백오피스 기능을 넣었습니다.<br />
+    학습 공간에서의 동시 접속자 수와 결제 목록, 날짜별 매출을 볼 수 있습니다.
+    </li>
+      <image src="./src/public/백오피스.png"></image>
+  </ul>
+  <summary>
+    관리자 백오피스 구현
+  </summary>
+</details>
+<details>
+  <ul>
+    <li>
+    사진필요!<br>
+    학습 공간에 입장시 자동으로 출석체크가 되며 퇴장할때 자동으로 공부 누적시간을 계산해 줍니다.
+    </li>
+      <image src="./src/public/출석관리.png"></image>
+  </ul>
+  <summary>
+    출석 구현
   </summary>
 </details>
