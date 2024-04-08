@@ -80,10 +80,6 @@ study_camp
 <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white">
 </div>
 
-<h2><p dir="auto"><br><br></p></h2>
-
-
-
 <h2> 🖥 화면 구현 </h2>
 <table border="3">
   <tbody>
