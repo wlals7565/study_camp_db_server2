@@ -28,57 +28,25 @@ study_camp
 
 <p dir="auto"><br><br></p>
 
+<p align='center'>
+  프로젝트 참여인원: 4명
+  진행기간: 2024.01.10 ~ 2024.02.20
+  소속: 스파르타코딩클럽 NodeJS
+  본인의 역할: API서버 제작, Socket.io를 활용한 실시간 채팅 구현, AWS 서버 설계, AWS 로드밸런싱 및 오토스케일링, Redis를 이용한 서버 동기화
+</p>
+
 <h2>👉 프로젝트 소개</h2>
 <p align='center'>
+이 프로젝트는 학습특화 온라인 메타버스를 만드는 것입니다.
 온라인 메타버스에서 모여 공부를 하는 트렌드가 생기며<br> 사용자들은  <b>학습</b>에 특화된 메타버스 환경을 원했습니다.
 <br><br>
 이런 사용자들의 요구에 따라 
 <b>학습에 특화된 메타버스 환경을</b> 제공합니다.
 </p>
 <br>
-
-<h3 align='center' style="color:#27AAE1;">
-<b>🤔study_camp를 왜 써야 하나요?</b>
-</h3>
-<p align='center'>
-게더나 젭과 같은 온라인 메타버스 환경 같은 경우 학습을 하는데 도움을 주지만 학습 자체를 효율적으로 하는데는 특화되지 못했습니다.
-<br><br>
-따라서, <span style="color:#27AAE1"><b>학습을 효율적으로</b></span>할 수 있고 <span style="color:#27AAE1"><b>학습에 대한 모니터링도</b></span> 가능한 학습 특화 메타버스를 만들고자 합니다.
-<br><br>
-<b>🎉study_camp가 여러분의 발전에 도움이 되었으면 합니다!🎉</b>
-</p>
-
 <br>
 <p dir="auto"></p>
 
-<h2> 🖥 화면 구현 </h2>
-<table border="3">
-  <tbody>
-  <tr align="center">
-    <td colspan=3><b>이미지를 클릭하면 크게 볼 수 있습니다!</b></td>
-  </tr>
-  <tr align="center">
-    <td width="300">로그인 페이지</td>
-    <td width="300">학습 공간 접속 페이지</td>
-    <td width="300">학습 공간 페이지</td>
-  </tr>
-  <tr>
-    <td><img src='./src/public/로그인 페이지.png'></td>
-    <td><img src='./src/public/학습 공간 접속 페이지.png'></td>
-    <td><img src='./src/public/학습 공간 페이지.png'></td>
-  </tr>
-  <tr align="center">
-    <td>화상 전화</td>
-    <td>채팅</td>
-    <td>미정</td>
-  </tr>
-  <tr>
-    <td><img src='./src/public/화상전화.png'></td>
-    <td><img src='./src/public/채팅.png'></td>
-    <td><img src=''></td>
-  </tr>
-  </tbody>
-</table>
 
 <p dir="auto"><br><br></p>
 
@@ -120,7 +88,37 @@ study_camp
 
 <p dir="auto"><br><br></p>
 
-<h2 tabindex="-1" dir="auto"><a id="user-content--프로젝트-아키텍쳐" class="anchor" aria-hidden="true" href="#-프로젝트-아키텍쳐"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><g-emoji class="g-emoji" alias="hammer_and_wrench" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f6e0.png">🛠</g-emoji> 프로젝트 아키텍쳐</h2>
+<h2 tabindex="-1" dir="auto"><a id="user-content--프로젝트-아키텍쳐" class="anchor" aria-hidden="true" href="#-프로젝트-아키텍쳐"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><g-emoji class="g-emoji" alias="hammer_and_wrench" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f6e0.png">
+
+<h2> 🖥 화면 구현 </h2>
+<table border="3">
+  <tbody>
+  <tr align="center">
+    <td colspan=3><b>이미지를 클릭하면 크게 볼 수 있습니다!</b></td>
+  </tr>
+  <tr align="center">
+    <td width="300">로그인 페이지</td>
+    <td width="300">학습 공간 접속 페이지</td>
+    <td width="300">학습 공간 페이지</td>
+  </tr>
+  <tr>
+    <td><img src='./src/public/로그인 페이지.png'></td>
+    <td><img src='./src/public/학습 공간 접속 페이지.png'></td>
+    <td><img src='./src/public/학습 공간 페이지.png'></td>
+  </tr>
+  <tr align="center">
+    <td>화상 전화</td>
+    <td>채팅</td>
+    <td>미정</td>
+  </tr>
+  <tr>
+    <td><img src='./src/public/화상전화.png'></td>
+    <td><img src='./src/public/채팅.png'></td>
+    <td><img src=''></td>
+  </tr>
+  </tbody>
+</table>
+🛠</g-emoji> 프로젝트 아키텍쳐</h2>
 
 ![image](./src/public/아키텍쳐.png)
 
