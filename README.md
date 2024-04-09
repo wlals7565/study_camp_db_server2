@@ -114,9 +114,7 @@ study_camp
 
 ![image](./src/public/아키텍쳐.png)
 
-<p dir="auto"><br><br></p>
 
-<h2><g-emoji class="g-emoji" alias="memo" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png">📝</g-emoji>기술적 의사 결정 </h2>
 
 <h2>⌚ 프로젝트 과정 소개</h2>
 
@@ -166,7 +164,9 @@ study_camp
 </tbody>
 </table>
 
+<p dir="auto"><br><br></p>
 
+<h2><g-emoji class="g-emoji" alias="memo" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png">📝</g-emoji>기술적 의사 결정 </h2>
 <table>
 <thead>
 <tr>
