@@ -30,7 +30,7 @@ study_camp
 
   프로젝트 참여인원: 4명
   
-  진행기간: 2024.01.10 ~ 2024.02.10
+  진행기간: 2024.01.12 ~ 2024.02.20
   
   소속: 스파르타코딩클럽 NodeJS 3기
   
@@ -117,6 +117,52 @@ study_camp
 <p dir="auto"><br><br></p>
 
 <h2><g-emoji class="g-emoji" alias="memo" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png">📝</g-emoji>기술적 의사 결정 </h2>
+
+<h2>⌚ 프로젝트 과정 소개</h2>
+
+<table>
+<thead>
+<tr>
+<th align="left"><strong>기간</strong></th>
+<th align="left"><strong>작업</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">2024.01.12 ~ 2024.01.17</td>
+<td align="left">
+  <ul>
+    <li>
+      데이터베이스 설계 및 API 작성
+    </li>
+    <li>
+      API 작성을 하면서 데이터베이스에서 실제 작업에 필요한 테이블이 누락되어있음을 확인하여 추가하였고 기존 테이블을 일부 수정하였음.
+    </li>
+    <li>
+      데이터베이스의 테이블을 추가하고 수정하는데 있어서 어떤 작업들을 할 것인지 정리하고 각각의 작업들에 대하여 필요한 데이터를 정리하여 테이블 구조가 적합한지 확인함.
+    </li>
+  </ul>
+  </td>
+</tr>
+  <tr>
+<td align="left">2024.01.18 ~ 2024.01.26</td>
+<td align="left">
+  <ul>
+    <li>
+      Socket.io를 이용한 전체 채팅 및 DM 기능 구현, 기존 MySQL 데이터 베이스에서 채팅 정보를 따로 분리해 MongoDB로 이전 및 과거 채팅 기록 로드 속도 감소,현재 접속중인 사용자 검색 기능 구현
+    </li>
+    <li>
+      API 작성을 하면서 데이터베이스에서 실제 작업에 필요한 테이블이 누락되어있음을 확인하여 추가하였고 기존 테이블을 일부 수정하였음.
+    </li>
+    <li>
+      데이터베이스의 테이블을 추가하고 수정하는데 있어서 어떤 작업들을 할 것인지 정리하고 각각의 작업들에 대하여 필요한 데이터를 정리하여 테이블 구조가 적합한지 확인함.
+    </li>
+  </ul>
+  </td>
+</tr>
+</tbody>
+</table>
+
 
 <table>
 <thead>
