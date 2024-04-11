@@ -236,51 +236,6 @@ study_camp
 </thead>
 <tbody>
 <tr>
-<td align="left">Phaser</td>
-<td align="left">
-  <ul>
-    <li>
-      HTML5 기반의 게임 개발 프레임워크입니다.
-    </li>
-    <li>
-      자바스크립트를 지원합니다. 백엔드 서버도 자바스크립트를 쓰기 때문에 일관성을 유지할 수 있습니다. 생산성도 향상됩니다.
-    </li>
-    <li>
-      Phaser는 커뮤니티가 타 JS기반 게임 개발 프레임워크 보다 크기 때문에 쉽게 자료를 구할 수 있습니다.
-    </li>
-  </ul>
-  </td>
-</tr>
-<tr>
-<td align="left">NestJS</td>
-<td align="left">
-  <ul>
-    <li>
-      NestJS는 서버 사이드 애플리케이션 구축을 지원하는 프레임워크입니다.
-    </li>
-    <li>
-      API를 작성하는데 있어서 모듈화된 코드 작성과 유지보수를 위한 효율적인 도구를 제공합니다.
-    </li>
-  </ul>
-  </td>
-</tr>
-<tr>
-<td align="left">TypeORM</td>
-<td align="left">
-   <ul>
-    <li> 
-      객체와 데이터베이스를 매핑해줍니다. 
-    </li>
-    <li>
-      Repository 패턴을 사용하여 코드를 구조화하기 편리합니다.
-    </li>
-    <li>
-      다양한 관계를 지원하고, 관계를 더 쉽게 조작하기 위해 많은 기능을 제공해 줍니다.
-    </li>
-  </ul>
- </td>
-</tr>
-<tr>
 <td align="left">Axios</td>
 <td align="left">
   <ul>
@@ -306,20 +261,6 @@ study_camp
   </ul>
   </td>
 </tr>
-<tr>
-<td align="left">webRTC</td>
-<td align="left">
-  <ul>
-    <li>
-      애플리케이션에 실시간 통신 기능을 추가해줍니다.
-    </li>
-    <li>
-      사용자가 카메라와 마이크를 사용하여 통신할 수 있게 만들어줍니다.
-    </li>
-  </ul>
-  </td>
-</tr>
-<tr>
 <td align="left">Redis</td>
 <td align="left">
    <ul>
