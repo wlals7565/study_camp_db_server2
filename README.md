@@ -310,7 +310,6 @@ study_camp
     API서버를 통해 학습 멤버와 학습 그룹 강의들에 대한 요청을 처리합니다.<br/>
     서버의 분리를 통해 서버의 부하를 분산할 수 있습니다.<br/>
     </li>
-      <image src="./src/public/다이렉트 메세지.png"></image>
   </ul>
   <summary>
     API 서버와 socket.io서버 분리
@@ -323,7 +322,6 @@ study_camp
     서버를 EC2를 사용하여 배포하였으며 HTTPS를 적용하였습니다..<br/>
     데이터베이스에 대해서도 REDIS의 경우 ElasticCache for Redis로 MySQL같은 경우는 RDS로 옮겼습니다.<br/>
     </li>
-      <image src="./src/public/다이렉트 메세지.png"></image>
   </ul>
   <summary>
     AWS를 이용한 서버 배포
@@ -335,7 +333,6 @@ study_camp
     서버의 유연성을 확보하기 위해 오토스케일링을 적용했습니다.<br/>
     오토스케일링을 통해 생성된 서버에 적절하게 부하를 분산하기 위해 로드밸런싱을 적용했습니다.<br/>
     </li>
-      <image src="./src/public/다이렉트 메세지.png"></image>
   </ul>
   <summary>
     오토스케일링 및 로드밸런싱 적용
@@ -346,7 +343,6 @@ study_camp
     <li>
     오토스케일링이 적용된 서버들이 동기화되지 않는 문제를 Redis를 통해 해결했습니다.<br/>
     </li>
-      <image src="./src/public/다이렉트 메세지.png"></image>
   </ul>
   <summary>
     Redis를 이용한 서버 동기화
