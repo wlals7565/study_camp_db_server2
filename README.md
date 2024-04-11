@@ -293,18 +293,6 @@ study_camp
 <details>
   <ul>
     <li>
-    PassportStrategy를 통해 구글 인증 전략을 구현했습니다.<br/>
-    구글 계정으로 회원가입과 로그인이 가능합니다.
-    </li>
-      <image src="./src/public/구글 로그인.png"></image>
-  </ul>
-  <summary>
-    구글 로그인 구현
-  </summary>
-</details>
-<details>
-  <ul>
-    <li>
     Socket.io를 통해 실시간 채팅을 구현했습니다.<br/>
     전체 채팅과 다이렉트 메시지를 지원합니다.<br/>
     과거의 채팅도 볼 수 있습니다.<br/>
@@ -318,82 +306,50 @@ study_camp
 <details>
   <ul>
     <li>
-    사진필요!<br>
-    Socket.io와 WebRTC를 이용해 실시간 화상채팅을 구현했습니다.
+    socket.io를 이용하여 유저간 인터렉티브를 제공하는 서버와 API 서버를 분리했습니다.<br/>
+    API서버를 통해 학습 멤버와 학습 그룹 강의들에 대한 요청을 처리합니다.<br/>
+    서버의 분리를 통해 서버의 부하를 분산할 수 있습니다.<br/>
     </li>
-      <image src=""></image>
+      <image src="./src/public/다이렉트 메세지.png"></image>
   </ul>
   <summary>
-    화상채팅 구현
+    API 서버와 socket.io서버 분리
   </summary>
 </details>
 <details>
   <ul>
     <li>
-    온라인 메타버스를 생성할 때 결제기능을 구현했습니다.<br />
-    토스페이먼츠의 API를 이용하였습니다.
+    AWS의 S3와 CloudFront를 통해 클라이언트 웹페이지를 배포하였습니다.<br/>
+    서버를 EC2를 사용하여 배포하였으며 HTTPS를 적용하였습니다..<br/>
+    데이터베이스에 대해서도 REDIS의 경우 ElasticCache for Redis로 MySQL같은 경우는 RDS로 옮겼습니다.<br/>
     </li>
-      <image src="./src/public/토스 결제창.png"></image>
+      <image src="./src/public/다이렉트 메세지.png"></image>
   </ul>
   <summary>
-    토스 페이먼츠 결제 구현
+    AWS를 이용한 서버 배포
   </summary>
 </details>
 <details>
   <ul>
     <li>
-    캐릭터를 꾸밀 수 있도록 꾸미기 기능을 넣었습니다.<br />
-    헤어, 옷, 피부, 얼굴을 꾸밀 수 있습니다.
+    서버의 유연성을 확보하기 위해 오토스케일링을 적용했습니다.<br/>
+    오토스케일링을 통해 생성된 서버에 적절하게 부하를 분산하기 위해 로드밸런싱을 적용했습니다.<br/>
     </li>
-      <image src="./src/public/꾸미기.png"></image>
+      <image src="./src/public/다이렉트 메세지.png"></image>
   </ul>
   <summary>
-    아바타 꾸미기 구현
+    오토스케일링 및 로드밸런싱 적용
   </summary>
 </details>
 <details>
   <ul>
     <li>
-    학습 공간 관리자를 위한 백오피스 기능을 넣었습니다.<br />
-    학습 공간에서의 동시 접속자 수와 결제 목록, 날짜별 매출을 볼 수 있습니다.
+    오토스케일링이 적용된 서버들이 동기화되지 않는 문제를 Redis를 통해 해결했습니다.<br/>
     </li>
-      <image src="./src/public/백오피스.png"></image>
+      <image src="./src/public/다이렉트 메세지.png"></image>
   </ul>
   <summary>
-    관리자 백오피스 구현
-  </summary>
-</details>
-<details>
-  <ul>
-    <li>
-    학습 공간에 입장시 자동으로 출석체크가 되며 퇴장할때 자동으로 공부 누적시간을 계산해 줍니다.
-    </li>
-      <image src="./src/public/출석보기.png"></image>
-  </ul>
-  <summary>
-    출석 구현
-  </summary>
-</details>
-<details>
-  <ul>
-    <li>
-    회원가입시 이메일을 통해 유효한 숫자 6자리를 입력해야 정상적으로 회원 가입이 되게 만들었습니다.
-    </li>
-      <image src="./src/public/이메일인증.png"></image>
-  </ul>
-  <summary>
-    회원가입 이메일 인증 구현
-  </summary>
-</details>
-<details>
-  <ul>
-    <li>
-    학습 공간에서 주기적으로 갱신되는 코드를 통해 입장 가능합니다.
-    </li>
-      <image src="./src/public/코드입장.png"></image>
-  </ul>
-  <summary>
-    코드 입장 구현
+    Redis를 이용한 서버 동기화
   </summary>
 </details>
 
